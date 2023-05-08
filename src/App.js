@@ -17,8 +17,6 @@ function App() {
       <div className="app">
 
         <Container>
-          <Link to="/" >Trending</Link>
-          <Link to="/series" >Series</Link>
           <Routes>
             <Route path='/' element={<Trending />} exact ></Route>
             <Route path='/movies' element={<Movies />}></Route>
