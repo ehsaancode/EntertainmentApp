@@ -32,7 +32,7 @@ export default function SimpleBottomNavigation() {
     } else if (value === 3) {
       navigate("/search");
     }
-  }, [value]);
+  }, [value, navigate]);
 
   // const handleClick = () => {
   //   if (value === 0) {
